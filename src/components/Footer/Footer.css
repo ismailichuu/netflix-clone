@@ -1,0 +1,30 @@
+.footer{
+    padding: 1.5rem 4%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.footer-icons img{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    list-style: none;
+    margin-bottom: 2rem;
+    opacity: 80%;
+}
+
+.copyright{
+    color: gray;
+    font-size: small;
+}
